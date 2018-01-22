@@ -52,7 +52,7 @@ uint32_t progMemMD5check(){
         }
    }
    md5.calculate();
-   md5.getBytes(calcBuffer);
+   md5.getBytes((uint8 *)calcBuffer);
    if ( memcmp (CRCdummy, calcBuffer, 16) == 0 ) {
       Serial.println(F("CRC  : program checksum       ...OK"));
       return md5NoOfBytes;
