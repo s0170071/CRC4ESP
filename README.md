@@ -58,6 +58,7 @@ add following line at the end of the "create hex" section:
 
 Linux:   
 `recipe.objcopy.postobjcopy.1.pattern = "python" "{runtime.platform.path}/tools/crc2.py" "{build.path}/{build.project_name}.bin"`
+
 Windows: 
 `recipe.objcopy.postobjcopy.1.pattern = "c:\python27\python.exe" "{runtime.platform.path}/tools/crc2.py" "{build.path}/{build.project_name}.bin"`
 
