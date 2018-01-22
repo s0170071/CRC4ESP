@@ -52,8 +52,8 @@ uint32_t progMemMD5check(){
         }
    }
    md5.calculate();
-   md5.getBytes(thisBinaryMd5);
-   if ( memcmp (CRCdummy, thisBinaryMd5, 16) == 0 ) {
+   md5.getBytes(calcBuffer);
+   if ( memcmp (CRCdummy, calcBuffer, 16) == 0 ) {
       Serial.println(F("CRC  : program checksum       ...OK"));
       return md5NoOfBytes;
    }
