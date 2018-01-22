@@ -1,4 +1,7 @@
 
+You like it ? Drop me a note ;-) And then: 
+
+
 The MIT License (MIT)
 
 Copyright (c) 2018 

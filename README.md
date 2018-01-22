@@ -67,3 +67,6 @@ I have not tried yet, but I believe the non-portable installation of the IDE wou
  
 2. put the crc2.py file into the folder 
 portable/packages/esp8266/hardware/esp8266/2.3.0/tools/
+
+
+You like it ? Drop me a note ;-)
