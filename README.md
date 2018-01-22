@@ -59,7 +59,7 @@ add following line at the end of the "create hex" section:
 Linux:   
 `recipe.objcopy.postobjcopy.1.pattern = "python" "{runtime.platform.path}/tools/crc2.py" "{build.path}/{build.project_name}.bin"`
 
-Windows: 
+Windows:
 `recipe.objcopy.postobjcopy.1.pattern = "c:\python27\python.exe" "{runtime.platform.path}/tools/crc2.py" "{build.path}/{build.project_name}.bin"`
 
 I have not tried yet, but I believe the non-portable installation of the IDE would work as well once you have found your platform.txt.
